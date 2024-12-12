@@ -3,147 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my blog</title>
+    <title>Tienda de Ropa</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <section class="hero">
-            <h1>MY BLOG</h1>
-             </section>
-        <nav> 
+        <div class="logo">MI TIENDA</div>
+        <nav>
             <ul>
-                <li><a href="#ARTICULOS">ARTICULOS</a></li>
-                <li><a href="#COCO">COCO</a></li>
-                <li><a href="#TIENDAS">TIENDAS</a></li>
-                <li><a href="#PRODUCTOS">PRODUCTOS</a></li>
-                <li><a href="#DESFILES">DESFILES</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="background-section" id="CHANEL">
-        <h1 class="centered-title">  CHANEL </h1>
+    <section id="inicio" class="hero">
+        <h1>Mi Tienda</h1>
     </section>
 
-    <div class="container">
-        <div class="text-section" id="COCO">
-            <h1>COCO CHANEL</h1>
-             <p>Coco Chanel, cuyo nombre real era Gabrielle Bonheur Chanel, fue una diseñadora de moda francesa y una de las figuras más influyentes en la moda del siglo XX. Nació el 19 de agosto de 1883 en Saumur, Francia, y murió el 10 de enero de 1971 en París. Es conocida por revolucionar la moda femenina al introducir un estilo más práctico y sencillo que rompió con las convenciones rígidas de la época.  </p>
-        </div>
-        <div class="image-section">
-            <img src="coco chanel.jpg" alt="Interior de arquitectura">
-        </div>
-    </div>
-
-<!-- tiendas al rededor del mundo-->
-<section class="TIENDAS" id="TIENDAS">
-    <h2>TIENDAS AL REDEDOR DEL MUNDO</h2>
-    <div class="product-grid">
-        <div class="product-item">
-            <img src="paris.webp" alt="paris">
-            <h3>París, Francia</h3>
-            <p>Esta es la tienda más famosa e histórica de Chanel, conocida como la primera boutique abierta por Gabrielle "Coco" Chanel en 1910. Es un emblema de la marca y alberga la famosa escalera de espejos que conducía al apartamento privado de Coco Chanel. La tienda sigue siendo un destino imprescindible.</p>
-            <a href="https://www.chanel.com/fr_FR/mode/boutiques/31-rue-cambon-paris.html" target="_blank" style="text-decoration: none;">
-                <button>Ver más</button>
-            </a>
-        </div>
-        <div class="product-item">
-            <img src="tienda 4.jpg" alt="eeuu">
-            <h3>Beverly Hills, California</h3>
-            <p>Situada en el icónico distrito de compras de Rodeo Drive, la boutique de Chanel en Beverly Hills es un emblema de lujo y exclusividad en la costa oeste de Estados Unidos. Esta tienda refleja la sofisticación de la marca y ofrece a los visitantes una experiencia de compra inmersiva.</p>
-            <a href="https://www.chanel.com/us/fashion/store-locator/90210/chanel-beverly-hills/" target="_blank" style="text-decoration: none;">
-                <button>Ver más</button>
-            </a>
-        </div>
-        <div class="product-item">
-            <img src="tienda 2.jpg" alt="japon">
-            <h3>Tokio, Japón</h3>
-            <p>La boutique de Chanel en Ginza está situada en uno de los distritos más exclusivos y modernos de Tokio. Este espacio se distingue por su imponente diseño arquitectónico contemporáneo, reflejando el lujo y la innovación que caracterizan a la marca.</p>
-            <a href="https://www.chanel.com/jp/fashion/store-locator/" target="_blank" style="text-decoration: none;">
-                <button>Ver más</button>
-            </a>
-        </div>
-        <div class="product-item">
-            <img src="tienda.webp" alt="reino unido">
-            <h3>Bond Street, Londres</h3>
-            <p>La boutique de Chanel en Bond Street es un ícono en una de las calles comerciales más exclusivas de Londres. Este espacio combina sofisticación y estilo, ofreciendo a sus visitantes una experiencia única y los mejores productos de moda de lujo.</p>
-            <a href="https://services.chanel.com/en_LT/storelocator/store/chanel+london+new+bond+street-38582.html" target="_blank" style="text-decoration: none;">
-                <button>Ver más</button>
-            </a>
-        </div>
-    </div>
-</section>
-
-    <!-- colecciones destacadas -->
-    <section id="colecciones" class="collections">
-        <h2 class="section-title">COLECCIONES DESTACADAS</h2>
-        <div class="collections-grid">
-            <div class="collection-item">
-                <img src="primavera.webp" alt="Colección Primavera">
-                <h3>Colección Primavera 2024</h3>
-                <p>La danza forma parte indisoluble de la historia de Chanel. Como patrocinador principal del Ballet de la Ópera de París, Chanel difunde esta forma de arte y ha dotado a esta colección de la gracia y la delicadeza propias del mundo de la danza. Presentó siluetas ligeras y vaporosas con juegos de volúmenes a base de tul, volantes, plisados y encajes. Casi un siglo después de las primeras creaciones de ballet que hiciera Gabrielle Chanel.</p>
+    <section id="productos">
+        <h2>NUESTROS PRODUCTOS</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="imagen 1.png" alt="Producto 1">
+                <h3>Camiseta Básica</h3>
+                <p>$19.99</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
-            <div class="collection-item">
-                <img src="alta costura.webp" alt="Colección Alta Costura">
-                <h3>Alta Costura 2024</h3>
-                <p>Lejos de ser meros atuendos escénicos, todo el universo operístico tuvo su hueco. Borlas, galones, pedrería, plumas, tafetán y satén duquesa marcan el tono de una colección para las grandes veladas, mientras que las largas capas de ópera nos transportan directamente a los años veinte. Cada mínimo detalle busca captar la luz sobre una paleta calmada y cálida: negro, plata, marfil y algunas variaciones de rosa.</p>
+            <div class="producto">
+                <img src="imagen 4.png" alt="Producto 2">
+                <h3>Pantalón Casual</h3>
+                <p>$39.99</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
-            <div class="collection-item">
-                <img src="coleccion crucero.webp" alt="Colección Crucero">
-                <h3>Colección Crucero</h3>
-                <p>El desfile incluyó trajes de baños enteros, vestidos de inspiración submarinista con logotipos y prendas de punto ligeras como el aire, combinadas con cómodos zapatos bajos a modo de bailarinas que se perfilan como la nueva competencia de los mocasines. Tras bastidores, estaba toda la diversión. Descubre aquí los mejores momentos detrás de a pasarela del desfile Crucero de Chanel.</p>
+            <div class="producto">
+                <img src="imagen 5.png" alt="Producto 3">
+                <h3>Vestido Elegante</h3>
+                <p>$49.99</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="imagen 6.png" alt="Producto 4">
+                <h3>Chaqueta de Jean</h3>
+                <p>$59.99</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="imagen 7.png" alt="Producto 5">
+                <h3>Vestido Elegante</h3>
+                <p>$49.99</p>
+                <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="imagen10.png" alt="Producto 6">
+                <h3>Chaqueta de Jean</h3>
+                <p>$59.99</p>
+                <button class="btn-comprar">Comprar</button>
             </div>
         </div>
     </section>
 
-    
-<!-- Desfiles -->
-    <div class="container" id="DESFILES">
-        <div class="image-section">
-            <img src="otoño.jpg" alt="desfile">
-        </div>
-        <div class="text-section">
-            <h1>Desfile Otoño-Invierno 2017</h1>
-            <p>El tema del desfile fue la exploración espacial, un concepto que Lagerfeld utilizó para reflejar la innovación y el espíritu futurista de la casa Chanel. El espectáculo se llevó a cabo en el Grand Palais de París, que se transformó en una impresionante plataforma de lanzamiento con una réplica de cohete espacial en el centro. Al final del desfile, este cohete simuló un despegue, elevándose hacia el techo, lo que dejó a los asistentes asombrados por el espectáculo visual..</p>
-           
-        </div>
-    </div>
-     
-    <div class="container">
-        <div class="text-section">
-            <h1>Desfile Primavera-Verano 2017</h1>
-            <p> El estilo 'lady' parece regresar a la pasarela, quizá influenciado por Melania Trump. Lagerfeld, director creativo de la casa, sonaba como posible autor de uno de los trajes que luciría la nueva primera dama pero al final ella optó por creadores instalados en EE. UU.</p>
-            
-        </div>
-        <div class="image-section">
-            <img src="defile 3.jfif" alt="defile">
-        </div>
-    </div>
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form id="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-<!-- Artículos Recientes -->
-<section id="ARTICULOS" class="articles" >
-    <h1 class="section-title">ARTICULOS</h1>
-    <div class="articles-grid">
-        <article class="article">
-            <img src="primavera.webp" alt="Artículo 1">
-            <h3>Cómo combinar colores para este otoño</h3>
-            <p>Aprende a crear looks únicos con las paletas más cálidas de la temporada.</p>
-            <a href="#">Leer más</a>
-        </article>
-        <article class="article">
-            <img src="articulo.webp" alt="Artículo 2">
-            <h3>5 accesorios imprescindibles para 2024</h3>
-            <p>Descubre las piezas clave que transformarán tu estilo en esta temporada.</p>
-            <a href="#">Leer más</a>
-        </article>
-        <article class="article">
-            <img src="descarga.jpg" alt="Artículo 3">
-            <h3>El impacto de la moda sostenible</h3>
-            <p>Explora cómo las marcas están adoptando prácticas éticas y responsables.</p>
-            <a href="#">Leer más</a>
-        </article>
-    </div>
-</section>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
 
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Tienda. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
+</html>
